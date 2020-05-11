@@ -23,10 +23,9 @@ function draw() {
   text("poke me", 305,305);
   rect(200,200,100,100);
   line(200,200,100,robi);
-
+robi = robi+10;
 }
 function mousePressed(){
   
-  robi = robi+10;
   
 }
