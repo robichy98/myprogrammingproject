@@ -1,20 +1,26 @@
 
 var robi=0;
-
+var chy=0;
 
 function setup() {
   createCanvas(400, 400);
-background("#BDD8B5");
+background("#F4A591");
 }
 
 function draw() {
   
   fill(140,robi,60);
-  stroke("#104D1D");
+  stroke("#478CF3");
   strokeWeight(5);
   ellipse(200,200,robi,robi);
   
-  fill("#24C36B");
+  fill(140,chy,60);
+  stroke("#F3BF47");
+  strokeWeight(5);
+  ellipse(200,200,chy,chy);
+  
+  
+  fill("#E16236");
   ellipse(mouseX, mouseY, 50, 50);
   textSize(24);
   textFont("Georgia");
@@ -27,5 +33,6 @@ robi = robi+10;
 }
 function mousePressed(){
   
+  chy = chy+10;
   
 }
