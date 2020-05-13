@@ -1,4 +1,3 @@
-
 var robi=0;
 var chy=0;
 
@@ -9,14 +8,14 @@ background("#F4A591");
 
 function draw() {
   
-  fill(140,robi,60);
+  fill(100,robi,100);
   stroke("#478CF3");
   strokeWeight(5);
   ellipse(200,200,robi,robi);
   
-  fill(140,chy,60);
+  fill(200,chy,50);
   stroke("#F3BF47");
-  strokeWeight(5);
+  strokeWeight(7);
   ellipse(200,200,chy,chy);
   
   
